@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMFViewer", "WindowsFormsApp8\EMFViewer.csproj", "{6B86344E-9F54-40E9-BCCD-18A33E43C638}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7151A0BD-9335-4D0A-880A-54AC2DE8C44A} = {7151A0BD-9335-4D0A-880A-54AC2DE8C44A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMFAssembly", "EMFTestingFramework\EMFAssembly.csproj", "{7151A0BD-9335-4D0A-880A-54AC2DE8C44A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B86344E-9F54-40E9-BCCD-18A33E43C638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B86344E-9F54-40E9-BCCD-18A33E43C638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B86344E-9F54-40E9-BCCD-18A33E43C638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B86344E-9F54-40E9-BCCD-18A33E43C638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7151A0BD-9335-4D0A-880A-54AC2DE8C44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7151A0BD-9335-4D0A-880A-54AC2DE8C44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7151A0BD-9335-4D0A-880A-54AC2DE8C44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7151A0BD-9335-4D0A-880A-54AC2DE8C44A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91ED2243-5A62-40F9-AA2D-CEC53FF996F0}
+	EndGlobalSection
+EndGlobal
